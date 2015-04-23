@@ -1,0 +1,12 @@
+Package: CircSpline
+Title: Spline Models for Circadian Rhythm Experiments
+Version: 0.0.0.9000
+Authors@R: person("Simon", "Bonner", email="simon.bonner@uky.edu", role = c("aut", "cre"))
+Description: What the package does (one paragraph)
+Depends: R (>= 3.0.1)
+License: GPL-3
+LazyData: true
+Imports: coda,
+	 splines,
+	 fda, 
+	 MASS
